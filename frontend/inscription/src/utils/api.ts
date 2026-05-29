@@ -20,7 +20,7 @@ export const submitRegistration = async (data: FormData): Promise<{ success: boo
     telephone: data.telephone,
     niveau: data.niveau,
     adresse: data.adresse,
-    objectif: data.objectifs[0] || ''
+    objectif: OBJECTIF_LABELS[data.objectifs[0]] || 'Autre' // Assuming the first selected objectif is the primary one
   }
 
   
