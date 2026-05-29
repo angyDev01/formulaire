@@ -18,7 +18,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-dev-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'True')
 
-ALLOWED_HOSTS = ['https://formulaire-backend0.onrender.com/', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['https://formulaire-backend0.onrender.com']
 
 
 # Application definition
@@ -35,11 +35,11 @@ INSTALLED_APPS = [
     'corsheaders',
     'api',
 ]
-CORS_ALLOWED_ORIGINS = ["http://localhost:5173",]
+CORS_ALLOWED_ORIGINS = ["https://formulaire-psi-flame.vercel.app",]
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOW_CREDENTIALS=True
 
-CSRF_TRUSTED_ORIGINS = ["http://localhost:5173",]
+CSRF_TRUSTED_ORIGINS = ["https://formulaire-backend0.onrender.com",]
 
 CORS_ALLOW_METHODS = [
     'DELETE',
