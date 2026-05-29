@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'api',
 ]
-CORS_ALLOWED_ORIGINS = ["https://formulaire-psi-flame.vercel.app",]
+CORS_ALLOWED_ORIGINS = ["https://formulaire-backend0.onrender.com",]
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOW_CREDENTIALS=True
 
