@@ -19,7 +19,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-dev-key')
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = [
-    'https://formulaire-backend0.onrender.com', 
+    'formulaire-backend0.onrender.com', 
     'localhost', 
     '127.0.0.1',
     ]
